@@ -1,0 +1,23 @@
+{
+  "name": "api_onepiece",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anajmnz/api_onePiece.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anajmnz/api_onePiece/issues"
+  },
+  "homepage": "https://github.com/anajmnz/api_onePiece#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
