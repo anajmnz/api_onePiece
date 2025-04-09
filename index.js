@@ -4,7 +4,7 @@ const fs = require('fs');
 const PORT = process.env.PORT || 3000;
 
 // Ruta para mostrar los libros
-app.get('/mangas', (req, res) => {
+app.get('/libros', (req, res) => {
   fs.readFile('./productos.json', 'utf8', (err, data) => {
     if (err) {
       res.status(500).json({ error: 'Error al leer el archivo' });
