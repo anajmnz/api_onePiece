@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const fs = require('fs');
 const PORT = process.env.PORT || 3000;
+
+app.use(cors());
 
 // Ruta para mostrar los libros
 app.get('/libros', (req, res) => {
